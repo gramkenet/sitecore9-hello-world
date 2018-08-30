@@ -2,7 +2,7 @@
 Visual Studio Solution for 'Hello World' site that derives from a local installation of Sitecore 9.
 
 
-<b>Tasks:</b><br />
+<b>Tasks:</b>
 <ol>
   <li>Installed local instance of Sitecore 9 (XP0) and necessary prerequisites</li>  
   <li>Converted sample site that comes with Sitecore 'out of the box' from WebForms to MVC</li>
@@ -11,7 +11,7 @@ Visual Studio Solution for 'Hello World' site that derives from a local installa
   <li>Implemented front-end framework (Bootstrap) to overhaul default sample site design</li>
 </ol>
 <br />
-<b>Scaffolding:</b><br />
+<b>Scaffolding:</b>
 <ul>
   <li>
     Layout: <a href="/Shared MVC Layout.cshtml">Shared MVC Layout</a>, which contains Sitecore placeholder "main".
