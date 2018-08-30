@@ -10,4 +10,6 @@ Visual Studio Solution for 'Hello World' site that derives from a local installa
   <li>Implemented front-end framework (Bootstrap) to overhaul default sample site design</li>
 </ol>
 <br />
-<img src="/sc9local.PNG" alt="Sitecore 9 local installation" />
+<img src="/sc9install.PNG" alt="Sitecore 9 local installation" />
+<br />
+<img src="/sc9local.PNG" alt="Sitecore 9 local site" />
