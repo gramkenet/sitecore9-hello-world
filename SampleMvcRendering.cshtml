@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+
+<div class="row">
+	<div class="card card-primary">
+		<div class="card-header">
+			<span class="card-title">
+				@Html.Sitecore().Field("title")
+			</span>
+		</div>
+		<div class="card-body">
+			@Html.Sitecore().Field("text")
+		</div>		
+	</div>	
+</div>

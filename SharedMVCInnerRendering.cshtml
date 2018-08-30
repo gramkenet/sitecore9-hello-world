@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc
+@model SitecoreTest.Models.SharedViewModel
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+	<a class="navbar-brand" href="#">@Html.Sitecore().Field("title")</a>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+		<img src="-/media/Default Website/sc_logo.ashx" alt="Sitecore" id="scLogo" />
+	</div>	
+</div>
+<div class="container">
+	@Html.Sitecore().Placeholder("content")	
+</div>
+<div class="footer fixed-bottom bg-secondary pt-3 pb-3">
+	<div class="container">
+		&#169; @Model.Year Sitecore
+	</div>	
+</div>
